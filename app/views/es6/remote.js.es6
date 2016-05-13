@@ -4,6 +4,7 @@ let interval,
 
 element.innerHTML= "Fibonacci sequence: "
 startFibonacci();
+console.log("Remote vanilla ES6 ready")
 
 function startFibonacci(limit=10){
   interval= setInterval(() => {

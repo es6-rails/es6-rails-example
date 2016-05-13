@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
       element.innerHTML= "Fibonacci sequence: "
       startFibonacci();
     }
+    console.log("Asset vanilla ES6 ready")
   }
 
   function startFibonacci(limit=10){

@@ -2,11 +2,15 @@
 <html>
 <head>
   <title>es6-rails Example</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<%= link_to "Asset Vanilla ES6", asset_vanilla_es6_es6_index_path %> |
+<%= link_to "Inlne Vanilla ES6", inline_vanilla_es6_es6_index_path %> |
+<%= link_to "Remote Vanilla ES6", remote_vanilla_es6_es6_index_path %>
 
 <%= yield %>
 
