@@ -1,5 +1,8 @@
 ## [es6-rails](https://github.com/es6-rails/es6-rails) gem example a rails app
 
+- es6 in inline html(erb)
+- es6 in remote es6 file
+- es6 in assets as es6 file
 
 #### Use
 
