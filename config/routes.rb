@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   resources :es6 do
     collection do
       get 'inline_vanilla_es6'
+      get 'remote_vanilla_es6'
+      get 'remote'
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.
