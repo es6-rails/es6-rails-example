@@ -1,0 +1,13 @@
+<h1>Inline ES6 with ERB</h1>
+<ul>
+  <% @users.each do |user|%>
+    <li class="user-field"><%=user[:name]%></li>
+  <% end %>
+</ul>
+
+<script>
+  <%= es6_transform do %>
+    let square = x => x * x;
+    console.log(square(5));
+  <% end %>
+</script>
