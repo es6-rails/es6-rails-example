@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :es6 do
     collection do
+      get 'asset_vanilla_es6'
       get 'inline_vanilla_es6'
       get 'remote_vanilla_es6'
       get 'remote'
