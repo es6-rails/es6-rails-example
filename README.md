@@ -1,4 +1,4 @@
-## [es6-rails](https://github.com/es6-rails/es6-rails) gem example rails app
+## [es6-rails](https://github.com/es6-rails/es6-rails) gem example a rails app
 
 
 #### Use
