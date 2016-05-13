@@ -3,7 +3,7 @@
 
 #### Use
 
--run `rails s`
+- run `rails s`
 
 - go to `http://localhost:3000/` and follow links
 
