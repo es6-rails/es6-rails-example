@@ -33,10 +33,11 @@ gem 'es6-rails'
 # gem 'capistrano-rails', group: :development
 
 group :test do
-  gem 'cucumber-rails', '~> 1.4.3', require: false
+  gem 'rspec-rails', '~> 3.4.2'
   gem 'capybara-webkit', '~> 1.11.1'
-  gem 'poltergeist', '~> 1.9.0'
-  gem 'database_cleaner'
+  # gem 'poltergeist', '~> 1.9.0'
+  # gem 'database_cleaner'
+  # gem 'shoulda-matchers', '~> 3.1.1'
 end
 
 group :development, :test do
