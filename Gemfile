@@ -36,6 +36,7 @@ group :test do
   gem 'cucumber-rails', '~> 1.4.3', require: false
   gem 'capybara-webkit', '~> 1.11.1'
   gem 'poltergeist', '~> 1.9.0'
+  gem 'database_cleaner'
 end
 
 group :development, :test do
