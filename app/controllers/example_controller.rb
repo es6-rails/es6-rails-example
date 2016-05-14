@@ -1,4 +1,4 @@
-class Es6Controller < ApplicationController
+class ExampleController < ApplicationController
   def index
   end
 

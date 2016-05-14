@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :es6 do
+  resources :example do
     collection do
       get 'asset_vanilla_es6'
       get 'inline_vanilla_es6'
@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'es6#index'
+  root 'example#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
