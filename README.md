@@ -6,8 +6,16 @@
 
 #### Use
 
+- setup with `bundle install`
+
 - run `rails s`
 
 - go to `http://localhost:3000/` and follow links
 
 The fibonacci numbers will start showing one by one and in the browsers console it will say that the view is `ready`.
+
+#### Test
+
+- run tests with `rspec`
+
+The tests are ensuring that the `es6-rails` gem is working correctly. 
