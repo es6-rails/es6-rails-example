@@ -35,9 +35,6 @@ gem 'es6-rails'
 group :test do
   gem 'rspec-rails', '~> 3.4.2'
   gem 'capybara-webkit', '~> 1.11.1'
-  # gem 'poltergeist', '~> 1.9.0'
-  # gem 'database_cleaner'
-  # gem 'shoulda-matchers', '~> 3.1.1'
 end
 
 group :development, :test do
