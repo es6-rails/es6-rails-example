@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
   resources :example do
     collection do
+      get 'index'
       get 'asset_vanilla_es6'
+      get 'asset_vanilla_es6_js'
       get 'inline_vanilla_es6'
+      get 'inline_vanilla_es6_js'
       get 'remote_vanilla_es6'
+      get 'remote_vanilla_es6_js'
       get 'remote'
+      get 'remote2'
     end
   end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

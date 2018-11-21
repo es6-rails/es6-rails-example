@@ -1,10 +1,10 @@
 let interval,
     i= 0,
-    element= document.getElementById("remote-es6");
+    element= document.getElementById("remote-es6-js");
 
-element.innerHTML= "Fibonacci sequence on .es6: "
+element.innerHTML= "Fibonacci sequence on .es6.js: "
 startFibonacci();
-console.log("Remote vanilla ES6 ready")
+console.log("Remote vanilla ES6.JS ready.")
 
 function startFibonacci(limit=10){
   interval= setInterval(() => {
