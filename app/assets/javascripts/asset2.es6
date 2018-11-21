@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
+  console.log("clickerd");
   let interval,
       i= 0,
       button= document.getElementById("asset-es6-button"),

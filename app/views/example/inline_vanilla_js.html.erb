@@ -1,0 +1,29 @@
+<h1>Inline vanilla JS with ERB</h1>
+<h4>File: inline_vanilla_js.html.erb</h4>
+<div id="inline-js"></div>
+
+<script>
+    var interval,
+        i= 0,
+        element= document.getElementById("inline-js");
+
+    element.innerHTML= "Fibonacci sequence on inline js: "
+    startFibonacci();
+    console.log("Inline vanilla .js ready")
+
+    function startFibonacci(){
+      interval= setInterval(function() {
+        element.innerHTML+= fibonacci(i++) + ", ";
+        if (i>10) {stopFibonacci()};
+      }, 1000);
+    }
+
+    function stopFibonacci(){
+      clearInterval(interval);
+      element.innerHTML+= " ...";
+    }
+
+    function fibonacci(n=0) {
+       return n>1 ? fibonacci(n-1)+fibonacci(n-2) : n;
+    }
+</script>
