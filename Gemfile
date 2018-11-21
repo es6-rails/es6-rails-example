@@ -21,7 +21,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'es6-rails'              , path: "../es6-rails"
+# gem 'es6-rails'              , path: "../es6-rails"
+gem 'es6-rails', :git => "git@github.com:razorcd/es6-rails.git", :branch => "es6_js_extension_for_assets_and_views"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
