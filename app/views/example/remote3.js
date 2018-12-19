@@ -1,4 +1,4 @@
-let interval,
+var interval,
     i= 0,
     element= document.getElementById("remote-js");
 

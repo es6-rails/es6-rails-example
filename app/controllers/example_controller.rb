@@ -16,27 +16,24 @@ class ExampleController < ApplicationController
   def asset_vanilla_es6
   end
 
-  def asset_vanilla_es6_js
-  end
-
   def inline_vanilla_es6
   end
 
-  #.es6.js
-  def inline_vanilla_es6_js
-  end
-  
   def remote_vanilla_es6
   end
 
-  def remote_vanilla_es6_js
+  #.es6.js
+  def asset_vanilla_es6_js
   end
+  
+  # def remote_vanilla_es6
+  # end
 
-  #
+  # def remote_vanilla_es6_js
+  # end
+
+  #remote scripts:
   def remote
-  end
-
-  def remote2
   end
 
   def remote3

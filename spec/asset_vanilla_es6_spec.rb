@@ -28,9 +28,9 @@ describe 'asset_vanilla_es6', :type => :feature do
     click_link 'Execute remote.js.es6'
     sleep 2.seconds
     expect(page.driver.console_messages.map {|m| m[:message]}).to include "Remote vanilla ES6 ready"
-    expect(page).to have_text "Fibonacci sequence:"
+    expect(page).to have_text "Fibonacci sequence on .es6:"
     sleep 2.seconds
-    expect(page).to have_text "Fibonacci sequence: 0, 1,"
+    expect(page).to have_text "Fibonacci sequence on .es6: 0, 1,"
     expect(page.driver.error_messages).to eq []
   end
 end
