@@ -6,13 +6,10 @@ Rails.application.routes.draw do
       get 'inline_vanilla_js'
       get 'remote_vanilla_js'
       get 'asset_vanilla_es6'
-      get 'asset_vanilla_es6_js'
       get 'inline_vanilla_es6'
-      get 'inline_vanilla_es6_js'
       get 'remote_vanilla_es6'
-      get 'remote_vanilla_es6_js'
+      get 'asset_vanilla_es6_js'
       get 'remote'
-      get 'remote2'
       get 'remote3'
     end
   end
