@@ -1,19 +1,19 @@
-let interval,
+var interval,
     i= 0,
-    element= document.getElementById("remote-es6");
+    element= document.getElementById("remote-js");
 
-element.innerHTML= "Fibonacci sequence on .es6: "
+element.innerHTML= "Fibonacci sequence on .js: "
 startFibonacci();
-console.log("Remote vanilla ES6 ready")
+console.log("Remote vanilla .js ready.")
 
-function startFibonacci(limit=10){
-  interval= setInterval(() => {
+function startFibonacci() {
+  interval= setInterval(function() {
     element.innerHTML+= fibonacci(i++) + ", ";
     if (i>10) {stopFibonacci()};
   }, 1000);
 }
 
-function stopFibonacci(){
+function stopFibonacci() {
   clearInterval(interval);
   element.innerHTML+= " ...";
 }

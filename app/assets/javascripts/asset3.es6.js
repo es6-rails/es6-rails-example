@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function(){
   let interval,
       i= 0,
-      button= document.getElementById("asset-es6-button"),
-      element= document.getElementById("asset-es6");
+      button= document.getElementById("asset-es6-js-button"),
+      element= document.getElementById("asset-es6-js");
 
   if (button) {
     button.onclick= function(){
       element.innerHTML= "Fibonacci sequence: "
       startFibonacci();
     }
-    console.log("Asset vanilla ES6 ready")
+    console.log("Asset vanilla ES6 JS ready")
   }
 
   function startFibonacci(limit=10){
